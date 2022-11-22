@@ -11,7 +11,15 @@ btn.addEventListener("click", (e) => {
 
 function deleteCreateElements(value) {
   const li = document.createElement("li");
+  const btn = document.createElement("button");
   li.className = "li";
   li.textContent = value;
+
+
+  btn.className = "btn";
+  btn.textContent = 'add';
+
+
+
   result.appendChild(li);
 }
