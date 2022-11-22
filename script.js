@@ -10,7 +10,8 @@ btn.addEventListener("click", (e) => {
 });
 
 function deleteCreateElements(value) {
-  console.log(value);
-  const li = createElement('li')
-  li.className = 'li'
+  const li = document.createElement("li");
+  li.className = "li";
+  li.textContent = value;
+  result.appendChild(li);
 }
